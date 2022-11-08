@@ -1,0 +1,358 @@
+<!DOCTYPE html>
+<html>
+<!--@copyright this is a recreation of the ESTY SHOPPING online website homepage. Its main inspiration for its recreation is due to its attention to detail and at the same time hasn't hindered readerbility either by too much detail or less wordings. It is mainly for educational purposes as it helps understand better the webdevelopment languages used as depicted in the script below.-->
+<head>
+<title>ESTY</title>
+<link rel="stylesheet" type="text/css" href="ESTYstylings.css">
+<link rel="stylesheet" type="text/css" href="ESTYstylings01.css">
+<link rel="stylesheet" type="text/css" href="ESTYstylingsqueries.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<script src='https://kit.fontawesome.com/a076d05399.js'></script>
+
+
+</head>
+<body style="margin: 0; padding: 10px;">
+	<!--this is the top most part which contain's the logo as well as the signi and shopping buttons-->
+	<div id="pb001">
+		<span id="logo">Esty</span>
+		<span id="button">
+			<button style="font-size:24px" title="Sign in"> Sign in </button><button style="font-size:24px"><i class="fa fa-shopping-cart" title="cart"></i></button>
+		</span>
+		<input type="searching_bar" name="searching_bar" title="searching bar" placeholder="Search for anything" > 
+	</div>
+	<!--this part of div contains the navigation menu as well as the dropdown content-->
+	<div id="pb002">
+		<ul id="navigationbar">
+			<li>
+				<!--dropdown-->
+				<div class="dropdown">
+				Jewelry & Accessories	
+					<ul class="dropdown-content">
+						<li>All Jewelry & Accessories</li>
+						<li>Accessories</li>
+						<li>Bags & Purses</li>
+						<li>Neclaces</li>
+						<li>Rings</li>
+						<li>Earrings</li>
+						<li>Bracelets</li>
+						<li>Body Jewelry</li>
+						<li>All Jewelry</li>
+					</ul>
+				</div>
+			</li>
+			<li>
+				<div class="dropdown">
+					Clothing & Shoes	
+						<ul class="dropdown-content">
+							<li>All Clothing & Shoes</li>
+							<li>Women's</li>
+							<li>Men's</li>
+							<li>Kid's & Baby</li>
+							<li>Bags & Purses</li>
+						</ul>
+					</div>
+				</li>
+			<li>
+				<div class="dropdown">
+					Home & Living
+						<ul class="dropdown-content">
+							<li>Home</li>
+							<li>Bath & Beauty</li>
+							<li>Pet Supplies</li>
+						</ul>
+					</div>
+				</li>
+			<li><!--dropdown-->
+				<div class="dropdown">
+				Wedding & Party
+					<ul class="dropdown-content">
+						<li>Party Supplies</li>
+						<li>Invitations & paper</li>
+						<li>Wedding Decorations</li>
+						<li>Wedding Gifts</li>
+						<li>Wedding Accessories</li>
+						<li>Wedding Clothing</li>
+						<li>Wedding Jewelry</li>
+						<li>All Wedding</li>
+					</ul>
+				</div>
+			</li>
+			<li><!--dropdown-->
+				<div class="dropdown">
+				Toys & Entertainment
+					<ul class="dropdown-content">
+						<li>Toys</li>
+						<li>Books</li>
+						<li>Movies & Music</li>
+					</ul>
+				</div>
+			</li>
+			<li><!--dropdown-->
+				<div class="dropdown">
+				Art & collectibles
+					<ul class="dropdown-content">
+						<li>Prints</li>
+						<li>Photography</li>
+						<li>Painting</li>
+						<li>Oil</li>
+						<li>Watercolor</li>
+						<li>Acrylic</li>
+					</ul>
+				</div>
+			</li>
+			<li><!--dropdown-->
+				<div class="dropdown">
+				Craft Supplies & Tools
+					<ul class="dropdown-content">
+						<li>All Craft Supplies & Tools</li>
+						<li>Home & Hobby</li>
+						<li>Jewelry & Beauty</li>
+						<li>Sewing & Fiber</li>
+						<li>Papercraft</li>
+						<li>Visual Arts</li>
+						<li>Sculping & Forming</li>
+					</ul>
+				</div>
+			</li>
+			<li>Vintage</li>
+		</ul>
+	</div>
+
+	<!--this part of div provides images which act as links to similar items-->
+	<div id="divone">
+		<p id="para">Find things you'll love. Support independent sellers. Only on Esty.</p><br>
+		<span id="spanz">Everyday finds</span><br><br>
+		<section id="divonesec">
+			<div class="imagelinks">
+				<a href="#link">
+				<img src="facemasks.jpg"><br>
+				<span class="spans">Face masks</span>
+				</a>
+			</div>
+			<div class="imagelinks">
+				<a href="#link">
+				<img src="walldecors.jpg"><br>
+				<span class="spans">Wall decor</span>
+				</a>
+			</div>
+			<div class="imagelinks">
+				<a href="#link">
+				<img src="giftideas.jpg"><br>
+				<span class="spans">Gift ideas</span>
+				</a>
+			</div>
+			<div class="imagelinks">
+				<a href="#link">
+				<img src="outdoor-garden.jpg"><br>
+				<span class="spans">Outdoor & garden</span>
+				</a>
+			</div>
+			<div class="imagelinks">
+				<a href="#link">
+				<img src="self-care.jpg"><br>
+				<span class="spans">Self-care</span>
+				</a>
+			</div>
+			<div class="imagelinks">
+				<a href="#link">
+				<img src="craftkits.jpg"><br>
+				<span class="spans">Craft kits</span>
+				</a>
+			</div>	
+		</section>
+	</div>
+
+	<!--this part of div contains more information about Esty shopping and various services ang goods provided-->
+	<div id="divtwo">
+		<div class="two-one">
+			<p><span><i class='fas fa-check' style='font-size:30px;color:red'></i>Unique everything</span><br>We have millions of one-of-a-kind items, so you can find whatever you need (or really,really want).</p>
+		</div>
+		<div class="two-one">
+			<p><span><i class='fas fa-check' style='font-size:30px;color:red'></i>Independent sellers</span><br>Buy directly from someone who put their heart and soul into making something special.</p>
+		</div>
+		<div class="two-one">
+			<p><span><i class='fas fa-check' style='font-size:30px;color:red'></i>Secure shopping</span><br>We use best-in-class technology to protect your transactions.</p>
+		</div>
+	</div>
+
+	<!--image gallery-->
+	<div id="imagegallery">
+		<h2>Popular right now</h2>
+		<article>
+			<div class="gallery">
+				<a href="ruth-bader.jpg" target="_blank">
+					<img src="ruth-bader.jpg" alt="imagelinks">
+					<div class="intermediate"><p>Ruth Bader Ginsburg SVG Bundle, Dissent Collar SVG, Jabot Collar Shirt, Rip Ruth Bader Ginsburg Collar, Notorious RBG, I Dissent Svg<br><br>SVGHoneyBees</div>
+				</a>			
+			</div>
+
+			<div class="gallery">
+				<a href="skeleton.jpg" target="_blank">
+					<img src="skeleton.jpg" alt="imagelinks">
+					<div class="intermediate"><p>Skeleton Dancing Halloween Tee Shirt<br><br>mollylouiseshop</p></div>
+				</a>			
+			</div>
+
+			<div class="gallery">
+				<a href="mystical-crow.jpg" target="_blank">
+					<img src="mystical-crow.jpg" alt="imagelinks">
+					<div class="intermediate"><p>Mystical Crow Halloween Stain Glass Panel Black Suncatcher Picture Home Decor Window Wall Hangings Cling Nature Ornament Gift House<br><br>ScloGlassStudio</p></div>
+				</a>			
+			</div>
+			<div class="gallery">
+				<a href="printable-logic.jpg" target="_blank">
+					<img src="printable-logic.jpg" alt="imagelinks">
+					<div class="intermediate"><p>Printable Logic Games-Forest stories vol.4<br><br>Petitedominance</p></div>
+				</a>			
+			</div>
+
+			<div class="gallery">
+				<a href="#coffee&jesus.jpg" target="_blank">
+					<img src="coffee&jesus.jpg" alt="imagelinks">
+					<div class="intermediate"><p>Coffee and Jesus, Coffee Mug, Cute Coffee Mug, Coffee Gift, Jesus<br><br>TypeLeaguePress</p></div>
+				</a>			
+			</div>
+
+			<div class="gallery">
+				<a href="#draco-malfoy.jpg" target="_blank">
+					<img src="draco-malfoy.jpg" alt="imagelinks">
+					<div class="intermediate"><p>Draco Malfoy Inspired Sticker Pack-6 Piece-Premium Waterproof Stickers-Matte<br><br>SeasterSeaster</p></div>
+				</a>			
+			</div>
+		</article>	
+
+	</div>
+
+	<!--images with links part two-->
+	<div id="imagelink3">
+		<h3>shop our selections<span id="snap">Items hand-picked by our editors</span></h3>
+		<div class="link3">
+			<a href="#anniversary.jpg">
+				<img src="anniversary.jpg" alt="imagelinks">
+				<div class="innerdiv"><span>Anniversary gifts</span></div>
+			</a>
+		</div>
+		<div class="link3">
+			<a href="#giftshim.jpg">
+				<img src="giftshim.jpg" alt="imagelinks">
+				<div class="innerdiv"><span>Gifts for him</span></div>
+			</a>
+		</div>
+		<div class="link3">
+			<a href="#giftsher.jpg">
+				<img src="giftsher.jpg" alt="imagelinks">
+				<div class="innerdiv"><span>Gifts for her</span></div>
+			</a>
+		</div>
+		<div class="link3">
+			<a href="personalized.jpg">
+				<img src="personalized.jpg" alt="imagelinks">
+				<div class="innerdiv"><span>Personalized gifts ideas</span></div>
+			</a>
+		</div>
+		<div class="link3">
+			<a href="wedding.jpg">
+				<img src="wedding.jpg" alt="imagelinks">
+				<div class="innerdiv"><span>Wedding gifts</span></div>
+			</a>
+		</div>
+		<div class="link3">
+			<a href="housewarming.jpg">
+				<img src="housewarming.jpg" alt="imagelinks">
+				<div class="innerdiv"><span>Housewarming gifts</span></div>
+			</a>
+		</div>
+	</div>
+
+	<!--this part of div contains a brief but detailed information on how we operate and dispence our services-->
+	<div id="aboutus">
+		<div  class="separate">
+			<p>What is Esty?</p>
+			<a href="#link">
+				<span>Read our wonderfully weird story</span>
+			</a>
+		</div>
+		<section id="about">	
+			<div class="content">
+				<h2>A one-of-a-kind community<br></h2>
+				<p>Esty is a global online marketplace, where people come together to make, sell, buy, and collect unique items.</p>
+			</div>
+			<div class="content">
+				<h2>Support independent creators</h2>
+				<p>There's no Esty warehouse-just millions of people selling the things they love. We make the whole process easy, helping you connect directly with makers to find something extraordinary.</p>
+			</div>
+			<div class="content">
+				<h2>Peace of mind</h2>
+				<p>Your privacy is the highest priority of our dedicated team. nad if you ever need assistance, we are always ready to step in for support.</p>
+			</div>
+		</section>
+		<div class="separate">
+			<p>Have a question? Well, we've got some answers.</p>
+			<a href="#buttonlink" target="_blank"><button>Go to Help Center</button></a>
+		</div>
+	</div>
+
+	<!--this is the bottom most division as the footer of which has a summary of links and detailed information.-->
+	<footer id="footing">
+		<div class="sec1" id="foo1">
+			<P>Yes! Send me exclusive offers, unique gift ideas, and personalized tips for shopping and selling on Esty.</P>
+			<input type="email" name="Email" placeholder="Enter your Email">
+				<a href="mailto: example@exclusive.com" target="_top" style="color: black;">subscribe</a>
+		</div>
+		<aside class="sec1" id="foo2">
+			<div class="foota">
+				<ul>
+					<li style="font-weight: bolder;font-size: x-large;">Shop</li>
+					<li>Gift cards</li>
+					<li>Esty blog</li>
+				</ul>
+			</div>
+			<div class="foota">
+				<ul>
+					<li style="font-weight: bolder;font-size: x-large;">Sell</li>
+					<li>Sell on Esty</li>
+					<li>Teams</li>
+					<li>Forums</li>
+					<li>Affiliates</li>
+				</ul>
+			</div>
+			<div class="foota">
+				<ul>
+					<li style="font-weight: bolder;font-size: x-large;">About</li>
+					<li>ESty, Inc.</li>
+					<li>Policies</li>
+					<li>Investors</li>
+					<li>Carreers</li>
+					<li>Press</li>
+					<li>Impact</li>
+					<li>Legal imprint</li>
+				</ul>
+			</div>
+			<div class="foota">
+				<ul>
+					<li style="font-weight: bolder;font-size: x-large;">Help</li>
+					<li>Help Center</li>
+					<li>Privacy settings</li>
+				</ul>
+				<a href="https://www.esty.com/"><button style="width: 200px;height: auto;padding: 10px;background: transparent;border-radius: 20%;outline: none;color: white;"><i class='fab fa-etsy' style='font-size:24px'></i> Download the Esty App</button></a><br>
+				<a href="https://instagram.com/"><i class='fab fa-instagram' style='font-size:36px; color: white;'></i></a>
+				<a href="https://facebook.com/"><i class='fab fa-facebook-square' style='font-size:36px; color: white;'></i></a>
+				<a href="https://pintrest.com/"><i class='fab fa-pinterest' style='font-size:36px; color: white;'></i></a>
+				<a href="https://twitter.com/"><i class='fab fa-twitter' style='font-size:36px; color: white;'></i></a>
+				<a href="https://youtube.com/"><i class='fab fa-youtube' style='font-size:36px; color: white;'></i></a>
+
+			</div>
+		</aside>
+		<div class="sec1" id="foo3">
+			
+			<span style="float: left; color: white; word-spacing: 1em; font-size:larger; padding-left: 15px; padding-bottom: 20px; border-radius: 50%;">Kenya | English(US) | $(USD)</span>	
+			<span style="float: right; color: white; word-spacing: 0.5em; font-size:larger; padding-top: 10px; padding-right:15px;"> @2020 Esty, Inc. <a href="#terms-of-use" style="color: white;">Terms of use</a>  <a href="#privacy" style="color: white;">Privacy</a>  <a href="#interest-based-ads" style="color: white;">Interest-based ads</a>  </span>
+			
+		</div>
+	</footer>
+
+
+</body>
+</html>
+
+

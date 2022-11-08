@@ -1,0 +1,84 @@
+/*this is an attachment to the ESTY SHOPPING online website meant to add effects to the html document presented.*/
+
+@media only screen and (max-width:800px){
+
+	input[type=searching_bar] { float: right;	 }
+
+	#snap { float: left;
+			clear: both;
+			width: 100%; }
+
+	div.content { width: 100%;
+				justify-content: center;
+				align-content: center;	}	
+
+	#navigationbar { width: 100%; }	
+
+}
+
+@media only screen and (min-width: 400px and max-width: 1040px){
+	.foota { margin: 5px 0.5em;
+			width: 11em;
+			flex-shrink: 20px; }
+
+}
+
+@media only screen and (max-width: 1000px){
+	.content { width: 100%;
+				padding: 2em;
+				justify-content: center;
+				align-content: center;	}	
+
+}
+
+@media only screen and (max-width: 1270px){
+	.content { width: 17em;
+				padding: 5px;
+				align-content: center;
+				overflow: hidden;	}
+
+	.foota { margin: 5px 1.5em; }			
+}
+
+@media only screen and (max-width: 1050px){
+
+	.two-one { width: 100%;
+				display: block; }
+
+	.gallery { margin: 10px;
+				width: 220px;	}
+
+	.link3 { margin: 2px;
+			display: inline-flex;
+			justify-content: flex-end;
+			flex-wrap: wrap-reverse;	}	
+
+	.content { width: 15.5em;
+				padding: 4px;
+				align-content: center;	}
+
+	.foota { margin: 5px 2em; }			
+
+	}
+
+
+@media only screen and (max-width: 600px){
+
+	.gallery { margin: 5px 2px;
+				width: 200px;}
+
+	#para { font-size: x-large; }	
+
+	#imagelink3 h3 {text-align: center;}		
+
+	.innerdiv { padding: 20px 10px; }
+
+	.content { width: 100%;
+				justify-content: center;
+				align-content: center;	}
+
+	#navigationbar li { display: block;width: 100%; }
+	
+	#navigationbar { width: 100%; }			
+
+}
